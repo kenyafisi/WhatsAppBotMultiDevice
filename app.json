@@ -16,18 +16,23 @@
   "env": {
     "PREFIX": {
       "description": "Bot Prefix to use before commands",
+      "value": "."
       "required": true
+      
     },
     "MONGODB_KEY": {
       "description": "MongoDB Key to store data",
+      "value": "mongodb+srv://nmakuthi9:zauyG2A6mzLvoWZP@nicholasbots.majukkb.mongodb.net/?retryWrites=true&w=majority&appName=NicholasBots"
       "required": true
     },
     "myNumber": {
       "description": "Your WhatsApp Number to use as bot owner",
+      "value": "254704897825"
       "required": true
     },
     "botNumber": {
       "description": "Your WhatsApp Bot Number to use as bot",
+      "value": "254704897825"
       "required": true
     },
     "REMOVE_BG_KEY": {
@@ -68,7 +73,7 @@
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku App Name",
-      "required": true
+      "required": false
     }
   },
   "buildpacks": [
